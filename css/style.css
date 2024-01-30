@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Hoves";
+    color:#222;
+}
+
+section{
+    margin: 0 calc(10.6vw - 16px) 160px;
+}
+
+.logo{
+    width: calc(8.83462389380531vw + 181.916814159292px);
+    margin-top: 37px;
+    margin-bottom: calc(6.3vw - 4.3px);
+}
+
+.course_info{
+    display: flex;
+    gap: 30px 161px;
+    margin-bottom: calc(3.1vw + 36.35px);
+}
+
+.course_data{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 21px;
+    line-height: 140%; /* 29.4px */
+}
+
+.value{
+    font-size: 21px;
+    line-height: 140%; /* 29.4px */
+    font-weight: 700;
+}
+
+.html_css_js h1{
+    font-family: "Chava";
+    font-size: 80px;
+    line-height: 110%; /* 88px */
+    margin-bottom: calc(2.2vw + 11.68px);
+}
+
+.html_css_js p{
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%; /* 37.8px */
+    width: 1030px;
+    margin-bottom: 20px;
+}
+
+.btn_wraper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
+
+.primary{
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
+    border: 2px solid #6E3ABA;
+    color:white;
+    cursor:pointer;
+}
+
+.secondary{
+    width: 328px;
+    border-radius: 12px;
+    background: transparent;
+    padding: 20px 0;
+    border: 2px solid #6E3ABA;
+    color:#6E3ABA;
+    cursor: pointer;    
+}
+
+.bg_img{
+    background-image: url(../img/html-css-js.svg);
+    background-repeat: no-repeat;
+    background-position: top calc(4.86vw + 58.7px) right calc(6.03vw - 18.7px);
+    background-size: 30vw;
+}
