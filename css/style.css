@@ -11,8 +11,9 @@ section{
 }
 
 .logo{
+    display: flex;
     width: calc(8.83462389380531vw + 181.916814159292px);
-    margin-top: 37px;
+    margin-top: calc(0.33vw + 41.2px);
     margin-bottom: calc(6.3vw - 4.3px);
 }
 
@@ -28,25 +29,26 @@ section{
 }
 
 .title{
-    font-size: 21px;
+    font-size: calc(0.55vw + 14px);
     line-height: 140%; /* 29.4px */
 }
 
 .value{
-    font-size: 21px;
+    font-size: calc(0.55vw + 14px);
     line-height: 140%; /* 29.4px */
     font-weight: 700;
 }
 
 .html_css_js h1{
     font-family: "Chava";
-    font-size: 80px;
+    font-size: calc(4.2vw + 26.2px);
     line-height: 110%; /* 88px */
     margin-bottom: calc(2.2vw + 11.68px);
+    width: calc(49.2vw + 148px);
 }
 
 .html_css_js p{
-    font-size: 27px;
+    font-size: calc(0.1vw + 14.3px);
     font-weight: 300;
     line-height: 140%; /* 37.8px */
     width: 1030px;
@@ -64,7 +66,7 @@ section{
     border-radius: 12px;
     background: #6E3ABA;
     padding: 20px 0;
-    border: 2px solid #6E3ABA;
+    border: 1px solid #6E3ABA;
     color:white;
     cursor:pointer;
 }
@@ -74,7 +76,7 @@ section{
     border-radius: 12px;
     background: transparent;
     padding: 20px 0;
-    border: 2px solid #6E3ABA;
+    border: 1px solid #6E3ABA;
     color:#6E3ABA;
     cursor: pointer;    
 }
