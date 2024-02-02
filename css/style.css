@@ -92,6 +92,7 @@ section{
     border: 1px solid #6E3ABA;
     color:#6E3ABA;
     cursor: pointer;    
+    
 }
 
 .bg_img{
@@ -110,356 +111,73 @@ section{
     
     order: 1;
     flex-grow: 0;
+    margin-left: calc(10.67vw - 16.6px);
     
-}
-.screen2 asd{
-    margin-bottom: ;
 }
 
 .screen2 h2{
-    width: calc(48.7vw + 145.2px);
-    height: calc(6.2vw + 56.8px);
+    width: calc(48.8vw + 144.58px); 
     color: rgb(34, 34, 34);
-    font-size: calc(2.6vw + 24.1px);
+    font-size: calc(2.65vw + 24.02px);
     font-weight: 500;
-    line-height: calc(3.1vw + 28.4px);
-    letter-spacing: 1%;
+    line-height: calc(3.1vw + 28.35px);
+    letter-spacing: 0%;
     text-align: left;
     text-transform: uppercase;
 }
 
-.sector1{
-    /* пункт_01 */
-position: static;
-width: 450px;
-height: 506px;
-left: 120px;
-right: 710px;
-top: 226px;
-bottom: 520px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-margin-bottom: 52px;
-
-}
-.sector1 p{
-    width: 420px;
-    height: 38px;
+.sector{
+    margin-top: calc(5.53vw + 19.2px);
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: start;
     align-items: flex-start;
     padding: 0px;
-    
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 20px 0px;
-    
+}
+
+.sector img{
+    width: calc(0.89vw + 226.7px);
+}
+
+.sector p{
+    width: calc(10.18vw + 289.73px);
     color: rgb(34, 34, 34);
-    font-family: TT Hoves;
-    font-size: 27px;
+    font-size: calc(0.99vw + 14.26px);
     font-weight: 600;
     line-height: 140%;
     letter-spacing: 0%;
     text-align: left;
     text-transform: uppercase;
-    }
-
-.sector1 span{
-    /* Если ты уже владеешь навыками Backend разработки, то изучив HTML, CSS, JavaScript получишь базу, чтобы начать изучение frontend и встать на путь full-stack разработчика */
-position: static;
-width: 450px;
-height: 228px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 20px 0px;
-
-/* text */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
+    margin-top: calc(1.11vw + 5.84px);
 }
 
-.sector2{
-    /* пункт_02 */
-position: static;
-width: 432px;
-height: 468px;
-left: 120px;
-right: 728px;
-top: 784px;
-bottom: 0;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
+.sector span{
+    position: static;
+    width: calc(13.5vw + 277.27px);
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+    color: rgb(34, 34, 34);
+    font-size: calc(0.996vw + 14.26px);
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
 }
-
-
-.sector2 p{
-    /* НАЧИНАЮЩИЙ ПРОГРАММИСТ */
-position: static;
-width: 318px;
-height: 76px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 20px 0px;
-
-/* point header */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 600;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-text-transform: uppercase;
-}
-
-.sector2 span{
-    /* Тем, кто уже начал осваивать HTML и CSS, но хочет получить структурированные знания и конструктивный фидбек */
-position: static;
-width: 432px;
-height: 152px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 20px 0px;
-
-/* text */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-}
-
-.sector3{
-    /* пункт_03 */
-position: static;
-width: 450px;
-height: 468px;
-left: 640px;
-right: 190px;
-top: 226px;
-bottom: 558px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-}
-
-.sector3 p{
-    /* ХОЧЕШЬ ОБУЧИТЬСЯ НОВОЙ ПРОФЕССИИ */
-position: static;
-width: 434px;
-height: 76px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 20px 0px;
-/* point header */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 600;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-text-transform: uppercase;
-}
-
-.sector3 span{
-position: static;
-width: 450px;
-height: 190px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 20px 0px;
-
-/* text */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-}
-
-.sector4{
-    /* пункт_04 */
-position: static;
-width: 477px;
-height: 506px;
-left: 640px;
-right: 163px;
-top: 784px;
-bottom: -38px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-}
-
-.sector4 p{
-    /* ХОЧЕШЬ ОБУЧИТЬСЯ НОВОЙ ПРОФЕССИИ */
-position: static;
-width: 434px;
-height: 76px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 20px 0px;
-
-/* point header */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 600;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-text-transform: uppercase;
-}
-
-.sector4 span{
-    /* Веб-Верстальщик является одной из самых перспективных профессий на сегодняшний день. Это идеальный старт для того чтобы начать карьеру frontend разработчика. */
-position: static;
-width: 477px;
-height: 190px;
-/* Автолейаут */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 20px 0px;
-
-/* text */
-color: rgb(34, 34, 34);
-font-family: TT Hoves;
-font-size: 27px;
-font-weight: 400;
-line-height: 140%;
-letter-spacing: 0%;
-text-align: left;
-}
-.sector2 img{
-   /* Memoji Boys 8-6 */
-position: static;
-width: 192px;
-height: 192px;
-left: 0%;
-right: 8.57%;
-top: 2.38%;
-bottom: 6.19%;
-}
-
-.sector3 img{
-    /* 23 1 */
-position: static;
-width: 254px;
-height: 254px;
-left: -15.24%;
-right: -5.71%;
-top: -14.76%;
-bottom: -6.19%;
-}
-
 
 /* COURSE FOR YOU END */
 
 /* TIMER START */
 .timer{
+    height: calc(31.3vw + 222.3px);
     background-color: #6E3ABA;
-    padding-top: 80px;
+    padding-top: calc(4.42vw + 23.36px);
     padding-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -468,12 +186,13 @@ bottom: -6.19%;
 
 .timer h2{
     color: var(--typo-white, #FFF);
+    width: calc(38.27vw + 186.1px);
     font-size: calc(1.99vw + 26.5px);
     font-weight: 700;
     letter-spacing: 1.56px;
+    text-align: center;
     text-transform: uppercase;
     margin-bottom: calc(4.1vw + 4.67px);
-    text-align: center;
 }
 
 .timer_container{
@@ -495,6 +214,8 @@ bottom: -6.19%;
     font-style: normal;
     font-weight: 400;
     line-height: 107.5%; /* 187.05px */
+    width: calc(18.14vw + 18.8px);
+    height: calc(13.4vw + 15.7px);
 }
 
 .timer_text{
@@ -509,7 +230,7 @@ bottom: -6.19%;
 
 .timer_btn{
     color: #6E3ABA;
-    font-size: 18px;
+    font-size: calc(-0.011vw + 18.14px);
     font-weight: 500;
     line-height: normal;
     padding: 20px 0;
@@ -518,8 +239,26 @@ bottom: -6.19%;
     text-align: center;
     width: 328px;
     gap: 10px;
+
+    
     /* margin: 57px 447px 88px 505px; */
 
 }
 
 /* TIMER END */
+
+
+
+@media (max-width: 377px){
+   
+/* COURSE FOR YOU START */
+
+    .sector{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+   
+}
+
+/* COURSE FOR YOU END */

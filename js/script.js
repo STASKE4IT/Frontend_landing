@@ -3,7 +3,7 @@ let hours = document.querySelectorAll(".timer_value")[1]
 let minuts = document.querySelectorAll(".timer_value")[2]
 let seconds = document.querySelectorAll(".timer_value")[3]
 
-let deadlineDate = new Date(2024,1,3,23,59,59)
+let deadlineDate = new Date(2024,1,10,23,59,59)
 
 function countDown(){
 let newDate = new Date()
@@ -20,10 +20,10 @@ let resultDate = deadlineDate-newDate
         hold(hoursValue,hours)
         hold(minutsValue,minuts)
         hold(seconValue,seconds)
-        // days.innerHTML=daysVale
-        // hours.innerHTML=hoursValue
-        // minuts.innerHTML=minutsValue
-        // seconds.innerHTML=seconValue
+        days.innerHTML=daysVale
+        hours.innerHTML=hoursValue
+        minuts.innerHTML=minutsValue
+        seconds.innerHTML=seconValue
     }
 
 
@@ -41,7 +41,5 @@ function hold(elem, value){
         value.innerHTML=elem
     }
 }
-
-
 
 
