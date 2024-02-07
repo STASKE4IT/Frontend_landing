@@ -22,7 +22,7 @@ h1{    border:#222 solid 2px;
 h3{    border:#222 solid 2px;
 } */
 section{
-    padding: 0px calc(10.72vw - 16.19px);
+    padding: 0 calc(10.72vw - 16.19px);
     margin-bottom: 160px;
     /* border:#222 solid 2px; */
 
@@ -109,7 +109,7 @@ section{
     background-image: url(../img/html-css-js.svg);
     background-repeat: no-repeat;
     background-position: top calc(4.86vw + 58.77px) right calc(6.02vw - 19.08px);
-    background-size: 30vw;
+    background-size: 32vw;
 }
 
 /* HTML-CSS-JS END */
@@ -288,13 +288,13 @@ section{
     font-size: calc(1.1vw + 33.84px);
 }
  .legend_text_wraper .subtitle{
-    width: calc(26.3vw + 22.97px);
-    margin-bottom: calc(5.53vw + 19.2px);
-    font-size: calc(0.99vw + 14.27px);
-    font-weight: 400;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
+   width: calc(26.3vw + 229.38px);
+   font-size: calc(0.99vw + 14.27px);
+   font-weight: 400;
+   line-height: 140%;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-bottom: calc(5.52vw + 19.28px);
 }
 
 .legend_img{
@@ -311,16 +311,16 @@ width: calc(7.73vw + 299.99px);
     gap: calc(1.1vw + 25.84px) calc(8.85vw - 23.27px);
 }
 
-.legend_card1{
+.legend_card:nth-child(1){
     grid-area: a;
 }
-.legend_card2{
+.legend_card:nth-child(2){
     grid-area: b;
 }
-.legend_card3{
+.legend_card:nth-child(3){
     grid-area: c;
 }
-.legend_card4{
+.legend_card:nth-child(4){
     grid-area: d;
 }
 
@@ -350,8 +350,8 @@ padding: 0px;
 .diplom img{
     width: calc(11.33vw + 284.98px);
     grid-area: a;
-    margin-top: 13px;
-    margin-right: 19px;
+    margin-top: calc(-0.77vw + 22.9px);
+    margin-right: calc(-0.56vw + 26.11px);
 }
 
 .diplom h2{
@@ -363,7 +363,6 @@ padding: 0px;
     text-align: left;
     text-transform: uppercase;
     grid-area: b;
-    margin-bottom: 20px;
     margin-top: 0;
 }
 
@@ -375,24 +374,28 @@ padding: 0px;
     letter-spacing: 0%;
     text-align: left;
     grid-area: c;
-    margin-bottom: 43px;
+    margin-top: 20px;
 }
 /* Диплом об окончании кукрса END */
 
 
 
 /* МОБИЛКА */
-@media (max-width: 376px){
+@media (max-width: 377px){
 
 *{
     margin: 0;
     padding: 0;
+}
+section{
+    margin-bottom: 60px;
 }
 /* HTML-CSS-JS START */
 .btn_wraper{
     flex-wrap: wrap;
     margin-top: 20px;
 }
+
 /* HTMLS-CSS-JS END */
 
 /* COURSE FOR YOU START */
@@ -418,11 +421,9 @@ padding: 0px;
 /* TIMER END */
 
 /* А кто преподаёт START */
-.legend h1{
-    margin-top: 60px;
-}
 
-/* .legend_icons{
+
+.legend_icons{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -430,30 +431,19 @@ padding: 0px;
                         "b c";
 }
 
-.legend_card:nth-child(1) {
-    grid-area: a;
-}
-.legend_card2:nth-child(2) {
-    grid-area: b;
-}
-.legend_card3:nth-child(3) {
-    grid-area: c;
-}
-.legend_card4:nth-child(4) {
-    grid-area: d;
-} */
-
 /* А кто преподаёт END */
 
 /* Диплом об окончании курса START */
 
 
 .diplom{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:"b"
                         "a" 
                         "c";
+                       
 } 
 /* Диплом об окончании кукрса END */
 }
