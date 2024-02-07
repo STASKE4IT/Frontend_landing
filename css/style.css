@@ -5,7 +5,7 @@
     font-family: "TT Hoves";
     color:#222;
 }
-div{
+/* div{
     border:#222 solid 2px;
 }
 p{
@@ -20,11 +20,11 @@ h2{
 h1{    border:#222 solid 2px;
 }
 h3{    border:#222 solid 2px;
-}
+} */
 section{
     padding: 0px calc(10.72vw - 16.19px);
     margin-bottom: 160px;
-    border:#222 solid 2px;
+    /* border:#222 solid 2px; */
 
 }
 /* HTML-CSS-JS START */
