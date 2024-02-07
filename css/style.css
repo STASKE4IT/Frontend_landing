@@ -31,8 +31,8 @@ section{
 
 .logo{
     display: flex;
-    width: calc(8.83462389380531vw + 181.916814159292px);
-    margin-top: calc(0.33vw + 41.2px);
+    width: calc(8.83vw + 182.05px);
+    margin-top: calc(-0.33vw + 41.24px);
     margin-bottom: calc(6.3vw - 4.3px);
 }
 
