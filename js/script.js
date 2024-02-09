@@ -3,7 +3,7 @@ let hours = document.querySelectorAll(".timer_value")[1]
 let minuts = document.querySelectorAll(".timer_value")[2]
 let seconds = document.querySelectorAll(".timer_value")[3]
 
-let deadlineDate = new Date(2024,1,10,23,59,59)
+let deadlineDate = new Date(2024,2,10,23,59,59)
 
 function countDown(){
 let newDate = new Date()
@@ -42,4 +42,6 @@ function hold(elem, value){
     }
 }
 
+// Слайдер
 
+// Слайдер
