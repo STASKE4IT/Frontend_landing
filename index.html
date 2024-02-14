@@ -30,14 +30,13 @@
         компонует его с иллюстрациями. Он умеет создавать HTML-шаблоны для веб-сайтов и писать HTML-код, знает, как
         графически оформить страницу и правильно расположить на ней элемент, и знаком со стилями</p>
       <div class="btn_wraper">
-        <button class="primary">Получить программу курса</button>
+        <button class="primary" onclick="openPopUp()">Получить программу курса</button>
         <button class="secondary">Записаться на курс</button>
       </div>
     </section>
   </div>
   <!-- HTML-CSS-JS END -->
   <!-- COURSE FOR YOU START -->
-
   <section class="screen2">
     <h2>Этот курс для тебя, если ты...</h2>
 
@@ -71,7 +70,6 @@
     </div>
 
   </section>
-
   <!-- COURSE FOR YOU END -->
   <!-- TIMER START -->
   <section class="timer">
@@ -139,42 +137,42 @@
         <h4>— Обучаем с нуля</h4>
         <p>Начнешь с самых основ и будешь двигаться от простого к сложному, закрепляя каждый урок практикой</p>
       </div>
-      <div class="offer_card"> 
+      <div class="offer_card">
         <h4>— Помогаем лучшим студентам с трудоустройством</h4>
         <p>Лучших студентов мы рекомендуем в ведущие веб-студии Узбекистана</p>
       </div>
       <div class="offer_card">
         <h4>— 70% практики</h4>
-        <p>Большая часть курса проходит в режиме live-коддинга, что позволяет сразу применить знания на практике и сформировать портфолио</p>
+        <p>Большая часть курса проходит в режиме live-коддинга, что позволяет сразу применить знания на практике и
+          сформировать портфолио</p>
       </div>
       <div class="offer_card">
         <h4>— Доводим до результата</h4>
-        <p>В рамках курса за твоими успехами будут следить тьюторы, которые ответят на любые возникающие вопросы и помогут усвоить материал</p>
+        <p>В рамках курса за твоими успехами будут следить тьюторы, которые ответят на любые возникающие вопросы и
+          помогут усвоить материал</p>
       </div>
     </div>
   </section>
   <!-- Верстальщик END -->
   <!-- Программа курса START -->
-
-<section class="lesson">
-  <div class="border">
-    <img id="corner" src="./img/course-program-corner.svg" alt="">
+  <section class="lesson">
+    <div class="border">
+      <img id="corner" src="./img/course-program-corner.svg" alt="">
       <h3>Программа курса</h3>
-    <div class="program">
-      <ul>
-        <li>Урок №1: Знакомство с html, css, js и разница между ними</li>
-        <li>Урок №2: Виды сайтов и первые термины</li>
-        <li>Урок №3: CSS - базовые стили и их подключение. Палитра</li>
-        <li>Урок №4: HTML [Таблицы]</li>
-        <li>Урок №5: HTML [Формы]</li>
-        <li>Урок №6: CSS [Intermediate]</li>
-      </ul>
-    </div>
-  <button class="primary">Получить программу курса</button>
-  </div>
+      <div class="program">
+        <ul>
+          <li>Урок №1: Знакомство с html, css, js и разница между ними</li>
+          <li>Урок №2: Виды сайтов и первые термины</li>
+          <li>Урок №3: CSS - базовые стили и их подключение. Палитра</li>
+          <li>Урок №4: HTML [Таблицы]</li>
+          <li>Урок №5: HTML [Формы]</li>
+          <li>Урок №6: CSS [Intermediate]</li>
+        </ul>
+      </div>
       <button class="primary">Получить программу курса</button>
-</section>
-
+    </div>
+    <button class="primary">Получить программу курса</button>
+  </section>
   <!-- Программа курса  END -->
   <!-- Диплом об окончании курса START -->
   <section class="diplom">
@@ -186,10 +184,31 @@
   <!-- Зароботок START-->
   <section class="cash">
     <h2>Сколько может зарабатывать Веб-Верстальщик?</h2>
-    <p>По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам <span>от 300$</span>. Тебе лишь нужно набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом!</p>
+    <p>По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам <span>от 300$</span>. Тебе лишь
+      нужно набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом!</p>
     <img src="./img/pic_hh.png" alt="">
   </section>
   <!-- Зароботок END-->
+  <!-- Кроме этого тебя ждут START -->
+  <section class="hope">
+    <div class="hopee">
+      <h3>Кроме этого тебя ждут:</h3>
+      <img src="./img/pic_student-box.png" alt="">
+      <div class="text">
+        <p>
+          150$ от наших партнёров
+        </p>
+        <p>
+          Компьютер для каждого студента со всеми необходимыми программами
+        </p>
+        <p>
+          Набор студента - приветственное письмо с ссылкой на закрытую группу, канцелярские принадлежности, стикеры
+          ипартнерские промо-коды
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Кроме этого тебя ждут END -->
   <!-- Отзывы наших студентов START -->
   <section class="splide" aria-label="Splide Basic HTML Example">
     <h3>Отзывы наших студентов</h3>
@@ -198,8 +217,12 @@
         <li class="splide__slide">
           <div class="slider_card">
             <img class="youtube" src="./img/youtube-icon.svg" alt="">
-            <p class="text">Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно расстаться с предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё получится!</p>
-            <div><img class="portret" src="./img/student-box-student-1.png" alt="">
+            <p class="text">
+              Я пришел в Техникум чтобы сменить профессию на front-end разработчика и окончательно
+              расстаться с предыдущим местом работы. Пробуйте себя во всем, ничего не бойтесь и у вас всё получится!
+            </p>
+            <div class="card_footer">
+              <img class="portret" src="./img/student-box-student-1.png" alt="">
               <p>Руслан Мухутдинов</p>
             </div>
           </div>
@@ -207,28 +230,102 @@
         <li class="splide__slide">
           <div class="slider_card">
             <img class="youtube" src="./img/youtube-icon.svg" alt="">
-            <p class="text">Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания курса, за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею что выбрал эту сферу!</p>
-            <div><img class="portret" src="./img/student-box-student-2.jpg" alt="">
-              <p>Юлдашев Искандер</p>
+            <p class="text">
+              Я выбрал курс веб-верстальщика, потому что мне это нравится и это круто. После окончания
+              курса, за хорошую учебу, меня пригласили на стажировку в Техникум. Будущее за IT и я не жалею что выбрал
+              эту сферу!
+            </p>
+            <div class="card_footer">
+              <img class="portret" src="./img/student-box-student-2.jpg" alt="">
+              <p>
+                Юлдашев Искандер
+              </p>
             </div>
           </div>
         </li>
         <li class="splide__slide">
           <div class="slider_card">
             <img class="youtube" src="./img/youtube-icon.svg" alt="">
-            <p class="text">Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я планирую дальше развиваться и двигаться вперед в этой сфере.</p>
-            <div><img class="portret" src="./img/student-box-student-3.jpg" alt="">
-              <p>Махмудов Джахонгир</p>
+            <p class="text">
+              Я увидел что Техникум всех приглашает на бесплатную лекцию по программированию. Меня это
+              заинтересовало, после лекции я понял, что это хороший старт для карьеры. После курса я планирую дальше
+              развиваться и двигаться вперед в этой сфере.
+            </p>
+            <div class="card_footer">
+              <img class="portret" src="./img/student-box-student-3.jpg" alt="">
+              <p>
+                Махмудов Джахонгир
+              </p>
             </div>
           </div>
       </ul>
     </div>
   </section>
   <!-- Отзывы наших студентов END -->
+  <!-- TIMER2 START -->
+  <section class="timer">
+    <h2>10% скидка действует</h2>
+    <div class="timer_container">
+      <div class="timer_card">
+        <div class="timer_value">00</div>
+        <div class="timer_text">дней</div>
+      </div>
+      <div class="timer_card">
+        <div class="timer_value">00</div>
+        <div class="timer_text">часов</div>
+      </div>
+      <div class="timer_card">
+        <div class="timer_value">00</div>
+        <div class="timer_text">минут</div>
+      </div>
+      <!-- <div class="timer_card">
+            <div class="timer_value">00</div>
+            <div class="timer_text">секунды</div>
+          </div> -->
+    </div>
+    <div>
+      <button class="timer_btn">Воспользоваться скидкой</button>
+    </div>
+  </section>
+  <!-- TIMER2 END -->
+  <!-- Немного о нас START -->
+  <section class="about">
+    <h3>Немного о нас</h3>
+    <div class="resident">
+      <div class="reward">
+        <img src="./img/pic_trophy.png" alt="">
+        <p>
+          Резиденты IT-парка и одна из самых успешных DIGITAL-школ в Узбекистане
+        </p>
+      </div>
+      <div class="frame">
+        <div class="frame2">
+          <span>
+            > 2500
+          </span>
+          <p>
+            выпускников
+          </p>
+        </div>
+        <div class="frame2">
+          <span>
+            10 направлений
+          </span>
+          <p>
+            обучения в сфере Digital
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Немного о нас END -->
   <!-- Всё ещё сомневаешься? START -->
-  <section id="splider2" aria-label="Splide Basic HTML Example">
+  <section class="splide slider2" aria-label="Splide Basic HTML Example">
     <h3>Все еще сомневаешься?</h3>
-    <p>Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!</p>
+    <p class="kozir">
+      Тогда последний козырь: после каждого выпуска мы устраиваем крутые вечеринки в честь вручения дипломов!
+    </p>
+
     <div class="splide__track">
       <ul class="splide__list">
         <li class="splide__slide"><img src="./img/slider-image-4.png " alt=""></li>
@@ -239,7 +336,57 @@
       </ul>
     </div>
   </section>
-  <!-- Всё ещё сомневаешься? END -->
+  <!-- Запишись на курс START -->
+  <section class="signup_course">
+    <div class="textimg">
+      <h1>запишись на курс прямо сейчас!</h1>
+      <ul class="course_list">
+        <li><img src="./img/keyboard-icon.svg" alt="">
+          <h5>HTML, CSS, JS</h5>
+        </li>
+        <li><img src="./img/game-icon.svg" alt="">
+          <h5>Разработка онлайн игр</h5>
+        </li>
+        <li><img src="./img/database-icon.svg" alt="">
+          <h5>Введение в Bootstrap и Github</h5>
+        </li>
+      </ul>
+    </div>
+    <div class="footer_left">
+      <div class="footer_form">
+        <div class="sale">10%</div>
+        <div class="footer_form_title">оставь заявку</div>
+        <div class="footer_form_subtitle">начало обучения: 1 декабря</div>
+        <form class="forma" action="">
+          <input class="footer_input" type="text" placeholder="Имя">
+          <input class="footer_input" type="text" placeholder="Фамилия">
+          <input class="footer_inputnum" type="tel" placeholder="+998">
+          <button class="primary"> Записаться на курс </button>
+        </form>
+        <div class="description_form">Остались вопросы? </div>
+        <p>
+          Звони: +998 33 135 33 55 Наши консультанты доступны каждый день с 10:00 до 22:00.
+        </p>
+      </div>
+
+    </div>
+  </section>
+  <!-- Запишись на курс END -->
+  <!-- popUp START -->
+  <div class="bg closed" onclick="closePopUp()">
+    <div class="popUp">
+      <div class="form">
+        <h3>оставь заявку</h3>
+        <div class="vvod">
+          <input type="text" name="name" placeholder="Имя">
+          <input type="text" name="phone" placeholder="+998">
+        </div>
+        <button class="primary">Записаться на курс</button>
+      </div>
+    </div>
+  </div>
+  <!-- popUp END -->
+
 
   <script src="./js/script.js"></script>
   <script src="./slider/dist/js/splide.min.js"></script>
@@ -247,24 +394,25 @@
     var splide = new Splide('.splide', {
       perPage: 3,
       rewind: true,
-      gap:"20px",
-      breakpoints:{
-        400:{perPage: 1, }
+      gap: "20px",
+      breakpoints: {
+        700: { perPage: 1, }
       },
     });
 
     splide.mount();
-    var splide = new Splide('#splide', {
-      perPage: 3,
+    var splide = new Splide('.splide.slider2', {
+      perPage: 2,
       rewind: true,
-      gap:"20px",
-      breakpoints:{
-        400:{perPage: 1, }
+      gap: "20px",
+      breakpoints: {
+        700: { perPage: 1, }
       },
     });
 
     splide.mount();
-  </script> 
+
+  </script>
 </body>
 
 </html>

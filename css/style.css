@@ -1,592 +1,1025 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "TT Hoves";
-    color:#222;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "TT Hoves";
+  color: #222;
 }
-/* div{
-    border:#222 solid 2px;
+/* div {
+  border: #222 solid 2px;
 }
-p{
-    border:#222 solid 2px;
+p {
+  border: #222 solid 2px;
 }
-span{
-    border:#222 solid 2px;
+span {
+  border: #222 solid 2px;
 }
-h2{
-    border:#222 solid 2px;
+h2 {
+  border: #222 solid 2px;
 }
-h1{    border:#222 solid 2px;
+h1 {
+  border: #222 solid 2px;
 }
-h3{    border:#222 solid 2px;
+h3 {
+  border: #222 solid 2px;
 } */
-section{
-    padding: 0 calc(10.72vw - 16.19px);
-    margin-bottom: 160px;
-    /* border:#222 solid 2px; */
-
+section {
+  padding: 0 calc(10.72vw - 16.19px);
+  margin-bottom: 160px;
+  /* border: #222 solid 2px; */
 }
 /* HTML-CSS-JS START */
-.logo{
-    display: flex;
-    width: calc(8.83vw + 182.05px);
-    margin-top: calc(-0.33vw + 41.24px);
-    margin-bottom: calc(6.3vw - 4.3px);
+.logo {
+  display: flex;
+  width: calc(8.83vw + 182.05px);
+  margin-top: calc(-0.33vw + 41.24px);
+  margin-bottom: calc(6.3vw - 4.3px);
 }
-.course_info{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px 161px;
-    margin-bottom: calc(3.1vw + 36.35px);
+.course_info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 161px;
+  margin-bottom: calc(3.1vw + 36.35px);
 }
-.course_data{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.course_data {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-.title{
-    font-size: calc(0.55vw + 14px);
-    line-height: 140%; /* 29.4px */
+.title {
+  font-size: calc(0.55vw + 14px);
+  line-height: 140%; /* 29.4px */
 }
-.value{
-    font-size: calc(0.55vw + 14px);
-    line-height: 140%; /* 29.4px */
-    font-weight: 700;
+.value {
+  font-size: calc(0.55vw + 14px);
+  line-height: 140%; /* 29.4px */
+  font-weight: 700;
 }
-.html_css_js h1{
-    font-family: "Chava";
-    font-size: calc(4.2vw + 26.2px);
-    line-height: 110%; /* 88px */
-    margin-bottom: calc(2.2vw + 11.68px);
-    width: calc(49.2vw + 148px);
+.html_css_js h1 {
+  font-family: "Chava";
+  font-size: calc(4.2vw + 26.2px);
+  line-height: 110%; /* 88px */
+  margin-bottom: calc(2.2vw + 11.68px);
+  width: calc(49.2vw + 148px);
 }
-.html_css_js p{
-    width: calc(66.5vw + 75.6px);
-    font-size: calc(0.99vw + 14.3px);
-    font-weight: 300;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 20px;
+.html_css_js p {
+  width: calc(66.5vw + 75.6px);
+  font-size: calc(0.99vw + 14.3px);
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
 }
-.btn_wraper{
-    display: flex;
-    flex-wrap: wrap;
-    gap:calc(-2.21vw + 28.29px) calc(3.31vw - 12.43px);
-    padding: 0;
+.btn_wraper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(-2.21vw + 28.29px) calc(3.31vw - 12.43px);
+  padding: 0;
 }
-.primary{
-    width: 328px;
-    border-radius: 12px;
-    background: #6E3ABA;
-    padding: 20px 0;
-    border: 1px solid #6E3ABA;
-    color:white;
-    cursor:pointer;
+.primary {
+  width: 328px;
+  border-radius: 12px;
+  background: #6e3aba;
+  padding: 20px 0;
+  border: 1px solid #6e3aba;
+  color: white;
+  cursor: pointer;
 }
-.secondary{
-    width: 328px;
-    border-radius: 12px;
-    background: transparent;
-    padding: 20px 0;
-    border: 1px solid #6E3ABA;
-    color:#6E3ABA;
-    cursor: pointer;    
+.secondary {
+  width: 328px;
+  border-radius: 12px;
+  background: transparent;
+  padding: 20px 0;
+  border: 1px solid #6e3aba;
+  color: #6e3aba;
+  cursor: pointer;
 }
-.bg_img{
-    background-image: url(../img/html-css-js.svg);
-    background-repeat: no-repeat;
-    background-position: right calc(6.02vw - 19.08px) top calc(4.86vw + 58.77px);
-    background-size: 30vw;
-    /* border:#222 solid 3px; */
+.bg_img {
+  background-image: url(../img/html-css-js.svg);
+  background-repeat: no-repeat;
+  background-position: right calc(6.02vw - 19.08px) top calc(4.86vw + 58.77px);
+  background-size: 30vw;
+  /* border:#222 solid 3px; */
 }
 /* HTML-CSS-JS END */
 /* COURSE FOR YOU START*/
-.screen2{
-    padding: 0; 
-    order: 1;
-    flex-grow: 0;
-    margin-left: calc(10.67vw - 16.6px);
-    
+.screen2 {
+  padding: 0;
+  order: 1;
+  flex-grow: 0;
+  margin-left: calc(10.67vw - 16.6px);
 }
-.screen2 h2{    
-    width: calc(48.8vw + 144.58px); 
-    margin-bottom: 38px;
-    font-size: calc(2.65vw + 24.02px);
-    font-weight: 500;
-    line-height: calc(3.1vw + 28.35px);
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: uppercase;
+.screen2 h2 {
+  width: calc(48.8vw + 144.58px);
+  margin-bottom: 38px;
+  font-size: calc(2.65vw + 24.02px);
+  font-weight: 500;
+  line-height: calc(3.1vw + 28.35px);
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
 }
-.sector{
-    margin-top: 52px;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: flex-start;
-    padding: 0px;
-    gap:0 70px;
+.sector {
+  margin-top: 52px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 0 70px;
 }
-.sector img{
-    width: calc(0.89vw + 226.7px);
-    
+.sector img {
+  width: calc(0.89vw + 226.7px);
 }
-.sector p{
-    width: calc(10.18vw + 289.73px);
-    color: rgb(34, 34, 34);
-    font-size: calc(0.99vw + 14.26px);
-    font-weight: 600;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: uppercase;
-    margin-top: calc(1.11vw + 5.84px);
+.sector p {
+  width: calc(10.18vw + 289.73px);
+  color: rgb(34, 34, 34);
+  font-size: calc(0.99vw + 14.26px);
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: calc(1.11vw + 5.84px);
 }
-.sector span{
-    position: static;
-    width: calc(13.5vw + 277.27px);
-   
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-top: 20px;
-    font-size: calc(0.996vw + 14.26px);
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
+.sector span {
+  position: static;
+  width: calc(13.5vw + 277.27px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 20px;
+  font-size: calc(0.996vw + 14.26px);
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 /* COURSE FOR YOU END */
 /* TIMER START */
-.timer{
-    background-color: #6E3ABA;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    padding: calc(4.42vw + 23.4px) 0px;
+.timer {
+  background-color: #6e3aba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(4.42vw + 23.4px) 0px;
 }
-.timer h2{
-    color: var(--typo-white, #FFF);
-    width: calc(38.23vw + 186.63px);
-    font-size: calc(1.99vw + 26.54px);
-    font-weight: 700;
-    letter-spacing: 3%;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: calc(4.1vw + 4.67px);
+.timer h2 {
+  color: var(--typo-white, #fff);
+  width: calc(38.23vw + 186.63px);
+  font-size: calc(1.99vw + 26.54px);
+  font-weight: 700;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: calc(4.1vw + 4.67px);
 }
-.timer_container{
-    display: flex;
-    gap:0 calc(6.41vw + 7.97px);
-    margin-bottom: calc(3.98vw + 6.1px);
-    
+.timer_container {
+  display: flex;
+  gap: 0 calc(6.41vw + 7.97px);
+  margin-bottom: calc(3.98vw + 6.1px);
 }
-.timer_card{
-    flex-basis: 251px;
-    flex-grow: 0;
+.timer_card {
+  flex-basis: 251px;
+  flex-grow: 0;
 }
-.timer_value{
-    color: #2F1D4E;
-    font-family: "Chava";
-    font-size: calc(12.6vw + 12.8px);
-    font-style: normal;
-    font-weight: 400;
-    line-height: 107.5%; /* 187.05px */
-    width: calc(18.14vw + 18.8px);
+.timer_value {
+  color: #2f1d4e;
+  font-family: "Chava";
+  font-size: calc(12.6vw + 12.8px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 107.5%; /* 187.05px */
+  width: calc(18.14vw + 18.8px);
 }
-.timer_text{
-    color: #2F1D4E;
-    font-size: calc(1.88vw + 2.96px);
-    font-weight: 500;
-    line-height: calc(2.21vw + 3.71px);
-    text-transform: uppercase;
-    text-align: center;
-    margin-left: 20px;
+.timer_text {
+  color: #2f1d4e;
+  font-size: calc(1.88vw + 2.96px);
+  font-weight: 500;
+  line-height: calc(2.21vw + 3.71px);
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 20px;
 }
-.timer_btn{
-    margin-bottom: 8px;
-    color: #6E3ABA;
-    font-size: calc(-0.011vw + 18.14px);
-    font-weight: 500;
-    line-height: normal;
-    padding: 20px 0;
-    border-radius: 12px;
-    background: #FFF;
-    text-align: center;
-    width: 328px;
-    gap: 10px;
+.timer_btn {
+  margin-bottom: 8px;
+  color: #6e3aba;
+  font-size: calc(-0.011vw + 18.14px);
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px 0;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  width: 328px;
+  gap: 10px;
 }
 /* TIMER END */
 /* А кто преподает START */
-.legend{
-    padding-bottom: 0px;
+.legend {
+  padding-bottom: 0px;
 }
-.legend h1{
-    position: static;
-    width: calc(29.2vw + 219.2px);
+.legend h1 {
+  position: static;
+  width: calc(29.2vw + 219.2px);
 
-    font-size: calc(2.65vw + 24.02px);
-    font-weight: 500;
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: calc(5.53vw + 19.2px);
+  font-size: calc(2.65vw + 24.02px);
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: calc(5.53vw + 19.2px);
 }
-.legend_wraper{
-    display: flex;
-    gap: 0 51px;
-    flex-wrap: wrap;
+.legend_wraper {
+  display: flex;
+  gap: 0 51px;
+  flex-wrap: wrap;
 }
-.legend_text_wraper{
-    flex-basis: 566px;
-    flex-grow: 100;
+.legend_text_wraper {
+  flex-basis: 566px;
+  flex-grow: 100;
 }
-.legend_text_wraper h3{
-    margin-bottom: calc(1.1vw + 5.84px);
-    font-size: calc(1.1vw + 33.84px);
+.legend_text_wraper h3 {
+  margin-bottom: calc(1.1vw + 5.84px);
+  font-size: calc(1.1vw + 33.84px);
 }
-.legend_text_wraper .subtitle{
-   width: calc(26.3vw + 229.38px);
-   font-size: calc(0.99vw + 14.27px);
-   font-weight: 400;
-   line-height: 140%;
-   letter-spacing: 0%;
-   text-align: left;
-   margin-bottom: calc(5.52vw + 19.28px);
+.legend_text_wraper .subtitle {
+  width: calc(26.3vw + 229.38px);
+  font-size: calc(0.99vw + 14.27px);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: calc(5.52vw + 19.28px);
 }
-.legend_img{
-width: calc(7.73vw + 299.99px);
+.legend_img {
+  width: calc(7.73vw + 299.99px);
 }
-.legend_icons{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:"a b" 
-                        "c d";
-    gap: calc(1.1vw + 25.84px) calc(8.85vw - 23.27px);
+.legend_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "c d";
+  gap: calc(1.1vw + 25.84px) calc(8.85vw - 23.27px);
 }
-.legend_card:nth-child(1){
-    grid-area: a;
+.legend_card:nth-child(1) {
+  grid-area: a;
 }
-.legend_card:nth-child(2){
-    grid-area: b;
+.legend_card:nth-child(2) {
+  grid-area: b;
 }
-.legend_card:nth-child(3){
-    grid-area: c;
+.legend_card:nth-child(3) {
+  grid-area: c;
 }
-.legend_card:nth-child(4){
-    grid-area: d;
+.legend_card:nth-child(4) {
+  grid-area: d;
 }
-.legend_card p{
-width: calc(7.62vw + 127.41px);
-font-size: calc(0.55vw + 13.9px);
-font-weight: 400;
-text-align: left;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
+.legend_card p {
+  width: calc(7.62vw + 127.41px);
+  font-size: calc(0.55vw + 13.9px);
+  font-weight: 400;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
 }
 /* А кто преподаёт END */
 /* Верстальщик START */
-.verst h2{
-    width: calc(76.7vw + 40.43px);
-    font-size: calc(2.65vw + 24.06px);
-    font-weight: 500;
-    line-height: calc(3.1vw + 28.4px);
-    letter-spacing: 1%;
-    text-align: left;
-    text-transform: uppercase;
-    margin-right:calc(12.65vw - 24px) ;
-    margin-bottom: calc(7.7vw - 9px) ;
+.verst h2 {
+  width: calc(76.7vw + 40.43px);
+  font-size: calc(2.65vw + 24.06px);
+  font-weight: 500;
+  line-height: calc(3.1vw + 28.4px);
+  letter-spacing: 1%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-right: calc(12.65vw - 24px);
+  margin-bottom: calc(7.7vw - 9px);
 }
-.offer_card h4{
-    width: calc(11.05vw + 286.6px);
-    font-size: calc(1vw + 14.3px);
-    font-weight: 600;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: calc(1.1vw + 5.9px);
+.offer_card h4 {
+  width: calc(11.05vw + 286.6px);
+  font-size: calc(1vw + 14.3px);
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: calc(1.1vw + 5.9px);
 }
-.offer_card p{
-    width: calc(8vw + 298.2px);
-    font-size: calc(1vw + 14.3px);
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
+.offer_card p {
+  width: calc(8vw + 298.2px);
+  font-size: calc(1vw + 14.3px);
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.offer_card:nth-child(1){
-    grid-area: a;
+.offer_card:nth-child(1) {
+  grid-area: a;
 }
-.offer_card:nth-child(2){
-    grid-area: b;
+.offer_card:nth-child(2) {
+  grid-area: b;
 }
-.offer_card:nth-child(3){
-    grid-area: c;
+.offer_card:nth-child(3) {
+  grid-area: c;
 }
-.offer_card:nth-child(4){
-    grid-area: d;
+.offer_card:nth-child(4) {
+  grid-area: d;
 }
-.offer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:"a b"
-                        "c d";
-    gap: 120px 52px;
+.offer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "c d";
+  gap: 120px 52px;
 }
 /* Верстальщик END */
 /* Программа курса START */
-.border{
-    border:solid black 2px;
-    padding: calc(4.42vw + 23.43px) calc(2.65vw + 18.06px) calc(3.81vw - 14.3px) calc(4.86vw + 1.78px);
-    position: relative;
+.border {
+  border: solid black 2px;
+  padding: calc(4.42vw + 23.43px) calc(2.65vw + 18.06px) calc(3.81vw - 14.3px)
+    calc(4.86vw + 1.78px);
+  position: relative;
 }
-.border h3{
-    width: calc(40.66vw + 89.51px);
-    font-size: calc(2.65vw + 24.06px);
-    font-weight: 500;
-    line-height: 117%;
-    letter-spacing: 1%;
-    text-transform: uppercase;
-    margin-bottom: calc(1.77vw + 17.37px);
+.border h3 {
+  width: calc(40.66vw + 89.51px);
+  font-size: calc(2.65vw + 24.06px);
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  margin-bottom: calc(1.77vw + 17.37px);
 }
-ul{
-    margin-bottom: 34.5px;
+.program ul {
+  margin-bottom: 34.5px;
 }
-li{ 
-    width: calc(71.6vw + 11.49px);
-    font-size: calc(0.55vw + 13.9px);
-    line-height: 140%;
-    border-bottom: 1px solid rgb(162, 162, 162);
-    list-style-type: none;
-    padding: 24px 0;
+.program li {
+  width: calc(71.6vw + 11.49px);
+  font-size: calc(0.55vw + 13.9px);
+  line-height: 140%;
+  border-bottom: 1px solid rgb(162, 162, 162);
+  list-style-type: none;
+  padding: 24px 0;
 }
-.lesson .primary{
-    display: block;
-    margin: 0 auto;
+.lesson .primary {
+  display: block;
+  margin: 0 auto;
 }
-.border + .primary{
-    margin-top: 30px;
-    display: none;
+.border + .primary {
+  margin-top: 30px;
+  display: none;
 }
-#corner{
-    width: calc(10vw);
+#corner {
+  width: calc(10vw);
 
-    position: absolute;
-    top: -2.5px;
-    right: -2.5px;
+  position: absolute;
+  top: -2.5px;
+  right: -2.5px;
 }
 /* Программа курса END */
 /* Диплом об окончании курса START */
-.diplom{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:"a b" 
-                        "a c";
-    
+.diplom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "a b"
+    "a c";
 }
-.diplom img{
-    width: calc(11.33vw + 284.98px);
-    grid-area: a;
-    margin-top: calc(-0.77vw + 22.9px);
-    margin-right: calc(-0.56vw + 26.11px);
+.diplom img {
+  width: calc(11.33vw + 284.98px);
+  grid-area: a;
+  margin-top: calc(-0.77vw + 22.9px);
+  margin-right: calc(-0.56vw + 26.11px);
 }
-.diplom h2{
-    width: calc(27.62vw + 224.4px);
-    font-size: calc(2.65vw + 24.06px);
-    font-weight: 500;
-    line-height: calc(3.1vw + 28.35px);
-    letter-spacing: 1%;
-    text-align: left;
-    text-transform: uppercase;
-    grid-area: b;
+.diplom h2 {
+  width: calc(27.62vw + 224.4px);
+  font-size: calc(2.65vw + 24.06px);
+  font-weight: 500;
+  line-height: calc(3.1vw + 28.35px);
+  letter-spacing: 1%;
+  text-align: left;
+  text-transform: uppercase;
+  grid-area: b;
 }
-.diplom p{
-    width: calc(20.55vw + 250.93px);
-    font-size: calc(1vw + 14.27px);
-    font-weight: 400;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
-    grid-area: c;
-    margin-top: 20px;
+.diplom p {
+  width: calc(20.55vw + 250.93px);
+  font-size: calc(1vw + 14.27px);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  grid-area: c;
+  margin-top: 20px;
 }
 /* Диплом об окончании кукрса END */
 /* Зароботок START*/
-.cash h2{
-    width: calc(44.3vw + 161.8px);
-    font-size: calc(2.65vw + 24.06px);
-    font-weight: 500;
-    line-height: 117%;
-    letter-spacing: 1%;
-    text-transform: uppercase;
-    margin-bottom: calc(2.2vw + 11.7px);
+.cash h2 {
+  width: calc(44.3vw + 161.8px);
+  font-size: calc(2.65vw + 24.06px);
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  margin-bottom: calc(2.2vw + 11.7px);
 }
-.cash p{
-    width: calc(60.55vw + 100.93px);
-    font-size: calc(1vw + 14.27px);
-    font-weight: 400;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: calc(1.77vw + 13.4px);
+.cash p {
+  width: calc(60.55vw + 100.93px);
+  font-size: calc(1vw + 14.27px);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: calc(1.77vw + 13.4px);
 }
-.cash span{
-    font-weight: 700;
+.cash span {
+  font-weight: 700;
 }
-.cash img{
-    width: calc(81.44vw + 22.61px);
+.cash img {
+  width: calc(81.44vw + 22.61px);
 }
 /* Зароботок END */
+/* Кроме этого тебя ждут START */
+.hope {
+  padding: 0;
+  height: 452px;
+}
+.hopee {
+  position: relative;
+  height: calc(-14.48vw + 637.28px);
+}
+.hope h3 {
+  width: calc(55.2vw + 120.8px);
+  position: absolute;
+  left: calc(10.05vw - 13.7px);
+  top: 0;
+  font-size: calc(2.65vw + 24.05px);
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+.hope img {
+  width: calc(19.1vw + 334.31px);
+  position: absolute;
+  left: calc(8.4vw - 46.5px);
+  top: calc(-0.22vw + 100.82px);
+  border: solid 2px black;
+}
+.hope .text {
+  width: calc(21.22vw + 248.44px);
+  /* position: absolute; */
+  left: calc(68.1vw - 231.25px);
+  top: calc(-23.2vw + 455px);
+  display: flex;
+  flex-direction: column;
+  gap: 25px 0;
+  margin-top: 158px;
+  margin-left: calc(68.07vw - 231.25px);
+}
+.hope p {
+  width: calc(21.66vw + 246.78px);
+  font-size: calc(0.33vw + 16.76px);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* Кроме этого тебя ждут END */
 /* Отзывы наших студентов START*/
-.splide h3{
-    width: calc(56.35vw + 116.67px);
-    font-size: calc(2.65vw + 24.055px);
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 1%;
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: calc(2.21vw + 11.71px);
+.splide h3 {
+  width: calc(56.35vw + 116.67px);
+  font-size: calc(2.65vw + 24.055px);
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: calc(2.21vw + 11.71px);
 }
-.slider_card{
-    width: calc(0.77vw + 325.1px);
-    border-radius: 12px;
-    background: rgb(240, 247, 253);
-    padding: 50px 20px 44px 20px;
-    height: 484px;
+.slider_card {
+  width: calc(0.77vw + 325.1px);
+  border-radius: 12px;
+  background: rgb(240, 247, 253);
+  padding: 50px 20px 36px 20px;
 }
-.youtube{
-    margin-bottom: 8px;
+.slider_card .youtube {
+  width: 38px;
+  margin-bottom: 8px;
 }
-.slider_card text{
-    width: calc(-0.11vw + 296.4px);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    font-size: 21px;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
+.slider_card text {
+  width: calc(-0.11vw + 296.4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 21px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.slider_card .portret{
-    width: 75.98px;
-    border-radius: 50%;
-    margin-top: 40px;
+.slider_card text:nth-child(3) {
+  width: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 21px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.portret:nth-child(3){
-    margin-top: 10px;
-}
-.slider_card .portret:nth-child(3){
-    width: 75.98px;
-    border-radius: 50%;
-    margin-top: 10px;
-}
-.splide__arrow{
-    display: none;
+.slider_card .portret {
+  width: 75.98px;
+  border-radius: 50%;
 }
 
-.splide__pagination{
-    display: none;
+.card_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+.card_footer:nth-of-type(3) {
+  margin-top: 5px;
+}
+
+.splide__arrow {
+  display: none;
+}
+
+.splide__pagination {
+  display: none;
 }
 /* Отзывы наших студентов END */
+/* Немного о нас START */
+.about h3 {
+  width: calc(20.22vw + 252.17px);
+  font-size: calc(2.65vw + 24.055px);
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: 1%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: calc(5.1vw + 15px);
+}
+.resident {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 97px;
+}
+.reward img {
+  width: 110px;
+  margin-bottom: 40px;
+}
+.reward p {
+  width: calc(10.83vw + 287.4px);
+  font-size: calc(0.55vw + 19.92px);
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.frame {
+  width: calc(14.7vw + 272.9px);
+  display: flex;
+  flex-direction: column;
+  gap: calc(1.1vw + 25.86px) 0;
+  margin-top: calc(-4.42vw + 56.57px);
+}
+.frame2 {
+  display: flex;
+  flex-direction: column;
+}
+.frame2 span {
+  width: calc(14.7vw + 272.9px);
+  font-size: calc(2.65vw + 24.055px);
+  font-weight: 700;
+  line-height: calc(3.1vw + 28.4px);
+  letter-spacing: 1%;
+  text-align: left;
+  margin-bottom: 7px;
+}
+.frame2 p {
+  width: 252px;
+  font-size: calc(0.55vw + 14px);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* Немного о нас END */
 /* Всё ещё сомневаешься? START */
+.splide__slide img {
+  width: 100%;
+}
 
-
-
+.kozir {
+  width: calc(46.4vw + 154px);
+  font-size: calc(0.99vw + 14.27px);
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: calc(0.44vw + 18.34px);
+}
+.splide__slide {
+}
 /* Всё ещё сомневаешься? END */
+/* Запишись на курс START */
+
+.signup_course {
+  display: flex;
+  background: #222222;
+  width: 100%;
+  height: 100%;
+}
+
+.textimg {
+  width: calc(16.35vw + 265.67px);
+  margin-right: 160px;
+}
+
+.textimg h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: calc(2.65vw + 24px);
+  width: calc(10.5vw + 289px);
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  padding-bottom: calc(4.3vw + 23.83px);
+  margin-top: 80px;
+}
+
+.course_list {
+  width: 450px;
+  height: 162px;
+  top: 431px;
+  left: 120px;
+}
+
+.course_list h5 {
+  font-size: calc(1vw + 14.27px);
+  color: #ffffff;
+  display: flex;
+
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.course_list img {
+  width: 28px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+}
+
+.course_list li {
+  display: flex;
+  font-size: calc(0.99vw + 14.27px);
+}
+
+.footer_left {
+  width: calc(16.35vw + 265.67px);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 100px;
+}
+
+.footer_form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(16.35vw + 265.67px);
+  flex-shrink: 0;
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 60px 69px 50px;
+  border-radius: 12px;
+  position: relative;
+}
+.footer_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sale {
+  width: 160px;
+  height: 160px;
+  background-color: #6e3aba;
+  color: #fff;
+  font-weight: 700;
+  font-size: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  left: -80px;
+  top: -80px;
+}
+
+.footer_form_title {
+  width: calc(3.6vw + 200.3px);
+  font-size: calc(0.44vw + 24.34px);
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer_form_subtitle {
+  font-size: calc(0.55vw + 14px);
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer_input {
+  display: block;
+  width: calc(6.7vw + 242px);
+  border: 0;
+  border-bottom: 1px solid #a1a1a185;
+  color: rgba(0, 0, 0, 0.17);
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+
+  outline: 0;
+  background: none;
+}
+.footer_inputnum{
+  display: block;
+  width: calc(6.7vw + 242px);
+  border: 0;
+  border-bottom: 1px solid #a1a1a185;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+
+  outline: 0;
+  background: none;
+}
+.forma .primary {
+  width: calc(6.74vw + 241.72);
+  margin-bottom: 40px;
+}
+
+.description_form {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgba(34, 34, 34, 0.5);
+}
+.footer_left p {
+  width: calc(9.06vw + 237.02px);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(34, 34, 34, 0.5);
+}
+
+/* Запишись на курс END */
+/* popUp START */
+.bg {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popUp {
+  background-color: rgb(240, 247, 253);
+  border-radius: 12px;
+  flex-basis: 326px;
+  flex-shrink: 0;
+  flex-grow: 0.7;
+
+  min-height: 423px;
+  height: 62vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px 0;
+  width: calc(6.7vw + 241.7px);
+}
+.form h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.form input {
+  display: block;
+  width: calc(6.7vw + 241.7px);
+
+  border: 0;
+  border-bottom: solid 1px rgba(162, 162, 162, 0.52);
+
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 10px;
+
+  outline: 0;
+  background: none;
+}
+.form input:first-child {
+  margin-bottom: 23px;
+}
+.closed {
+  display: none;
+}
+/* popUp END */
 
 /* МОБИЛКА */
-@media (max-width: 400px){
-
-*{
+@media (max-width: 600px) {
+  * {
     margin: 0;
     padding: 0;
-}
-section{
+  }
+  section {
     margin-bottom: 60px;
-}
-/* HTML-CSS-JS START */
-.btn_wraper{
+  }
+  /* HTML-CSS-JS START */
+  .btn_wraper {
     flex-wrap: wrap;
     margin-top: 20px;
-}
-/* HTMLS-CSS-JS END */
-/* COURSE FOR YOU START */
-.sector{
-        margin-top: 40px;
-        display: flex;
-        flex-wrap: wrap;
-        gap:40px 0;
-    }
-.screen h2{
+  }
+  /* HTMLS-CSS-JS END */
+  /* COURSE FOR YOU START */
+  .sector {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 0;
+  }
+  .screen h2 {
     margin-top: -23.5;
-}
-/* COURSE FOR YOU END */
-/* TIMER START */
-.timer{
+  }
+  /* COURSE FOR YOU END */
+  /* TIMER START */
+  .timer {
     margin-top: 60px;
-}
-.timer_btn{
+  }
+  .timer_btn {
     margin-bottom: 1px;
-}
-/* TIMER END */
-/* А кто преподаёт START */
-.legend_icons{
+  }
+  /* TIMER END */
+  /* А кто преподаёт START */
+  .legend_icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas:"a d"
-                        "b c";
-}
-/* А кто преподаёт END */
-/* Верстальщик START*/
-.offer{
+    grid-template-areas:
+      "a d"
+      "b c";
+  }
+  /* А кто преподаёт END */
+  /* Верстальщик START*/
+  .offer {
     display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-areas:"a"
-                        "b"
-                        "c"
-                        "d";
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d";
     gap: 30px 0;
-}
-/* Верстальщик END */
-/* Программа курса START */
+  }
+  /* Верстальщик END */
+  /* Программа курса START */
 
-.border .primary{
+  .border .primary {
     display: none;
     margin: 0 auto;
-}
-.border + .primary{
+  }
+  .border + .primary {
     display: block;
-}
+  }
+  /* Программа курса END */
+  /* Диплом об окончании курса START */
 
-/* Программа курса END */
-/* Диплом об окончании курса START */
-
-.diplom{
+  .diplom {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas:"b"
-                        "a" 
-                        "c";  
-} 
+    grid-template-areas:
+      "b"
+      "a"
+      "c";
+  }
 
-/* Диплом об окончании кукрса END */
+  /* Диплом об окончании кукрса END */
+  /* Кроме этого тебя ждут START */
+  .hopee {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  .hope .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+  }
+  /* Кроме этого тебя ждут END */
+  /* Немного о нас START */
 
-
-
-
-
+  /* Немного о нас END */
+  /* Запишись на курс START */
+  .signup_course {
+    flex-direction: column;
+  }
+  .textimg h1 {
+    font-family: TT Hoves;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-align: left;
+  }
+  .course_list {
+    width: 328px;
+    height: 124px;
+    top: 200px;
+    left: 23px;
+    gap: 20px;
+  }
+  .course_list h5 {
+    font-size: calc(1vw + 14.27px);
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .sale {
+    left: auto;
+    right: 40px;
+    top: 0;
+    transform: translate(50%, -50%);
+    width: 105px;
+    height: 105px;
+    font-size: 40px;
+  }
+  .forma .primary {
+    width: 267px;
+    height: 61px;
+    top: 274px;
+    left: 30px;
+    padding: 20px 0px 20px 0px;
+    border-radius: 12px;
+    gap: 10px;
+  }
+  .footer_form_subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 200px;
+    height: 22px;
+  }
+  /* Запишись на курс END */
 }
